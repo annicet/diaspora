@@ -1,0 +1,19 @@
+{
+  "name": "diaspora",
+  "version": "1.0.0",
+  "description": "Application Diaspora",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annicet/diaspora.git"
+  },
+  "author": "Drephyx Yango & Arion Njacnga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annicet/diaspora/issues"
+  },
+  "homepage": "https://github.com/annicet/diaspora#readme"
+}
