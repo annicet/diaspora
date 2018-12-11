@@ -4,7 +4,8 @@
   "description": "Application Diaspora",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/annicet/diaspora/issues"
   },
-  "homepage": "https://github.com/annicet/diaspora#readme"
+  "homepage": "https://github.com/annicet/diaspora#readme",
+  "dependencies": {
+    "massive": "^5.7.0"
+  }
 }
