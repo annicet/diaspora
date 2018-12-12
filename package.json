@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/annicet/diaspora#readme",
   "dependencies": {
+    "eslint": "^5.10.0",
     "massive": "^5.7.0"
   }
 }
