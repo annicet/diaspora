@@ -1,4 +1,5 @@
+const { UserRepository } = require('./UserRepository');
 const { UserService } = require('./UserService');
 const { UserController } = require('./UserController');
 
-module.exports = { UserService, UserController };
+module.exports = { UserRepository, UserService, UserController };

@@ -1,5 +1,5 @@
 const { DBConnector } = require('./DBConnector');
-const { UserService, UserController } = require('./user');
+const { UserRepository, UserService, UserController } = require('./user');
 const { Router } = require('./Router');
 const express = require('express');
 const http = require('http');
@@ -27,6 +27,7 @@ class Assembly {
 
 	async _initAppInstances() {
 		// order is important
+		this.userRepository = new UserRepository(this);
 		this.userService = new UserService(this);
 		this.userController = new UserController(this);
 	}

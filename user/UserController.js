@@ -13,8 +13,8 @@ class UserController {
 		let userType;
 		let telephone;
 		if(req.body) {
-			firstName = req.body.firstName;
-			lastName = req.body.lastName;
+			firstName = req.body.user_firstName;
+			lastName = req.body.user_lastName;
 			email = req.body.email;
 			userType = req.body.userType;
 			telephone = req.body.telephone;
@@ -26,7 +26,7 @@ class UserController {
 			throw e;
 		}
 		const user = req.body;
-		const result = this.userService.createUser(user);
+		const result = await this.userService.createUser(user);
 		if(!result.error)
 			res.statusCode = 201;
 		res.json(result);
