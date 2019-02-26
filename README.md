@@ -19,3 +19,5 @@ c'est une classe qui permet d'initialiser tous les services ( et non les objets)
 #comment envoyer une réponse suite à un appel API: https://fullstack-developer.academy/res-json-vs-res-send-vs-res-end-in-express/
 #Très bon article qui explique le format JSON: https://javascript.info/json
 #throw error in node js: 
+#TDD methodology
+#gestionnaire des cas de test
